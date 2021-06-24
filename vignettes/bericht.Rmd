@@ -1,0 +1,15 @@
+---
+title: "Beispiel-Bericht"
+pkgdown:
+    as_is:true
+---
+
+<!-- this file always has to be in sync with other language versions -->
+
+<div class="alert alert-warning" role="alert">
+  Dieses Ergebnis basiert auf den `tu_dois()` Beispieldaten im metacheck Paket.
+</div>
+
+```{r, echo = FALSE, results = 'asis'}
+metacheck:::knit_child_report(lang = "de")
+```
